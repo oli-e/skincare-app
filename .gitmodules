@@ -1,3 +1,6 @@
 [submodule "backend"]
 	path = backend
 	url = https://github.com/oli-e/skincare-app-backend.git
+[submodule "frontend/shop"]
+	path = frontend/shop
+	url = https://github.com/oli-e/skincare-app-front.git
