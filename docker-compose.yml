@@ -1,17 +1,13 @@
 version: '3'
 services:
   frontend:
-      build: 
-        context: .
-        dockerfile: Dockerfile
+      image: ol1ee/ebusiness:latest
       container_name: frontend
       ports:
         - 3000:3000
       command: "npm start"
   backend:
-      build:
-        context: .
-        dockerfile: Dockerfile
+      image: ol1ee/ebusiness:latest
       container_name: backend
       ports:
         - 9000:9000
